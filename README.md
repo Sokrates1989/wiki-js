@@ -63,8 +63,8 @@ docker-compose down
 
 ### 6. Persistent Storage
 
-- The PostgreSQL database is stored in `./db_storage`, ensuring data persistence across restarts.
-- To completely remove all data, delete the `db_storage` directory.
+- The PostgreSQL database is stored in `./db_data`, ensuring data persistence across restarts.
+- To completely remove all data, delete the `db_data` directory.
 
 ### 7. Logs & Troubleshooting
 
